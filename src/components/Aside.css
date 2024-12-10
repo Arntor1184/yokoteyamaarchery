@@ -1,0 +1,16 @@
+/* Styling for the Weather Widget, YouTube Video, and Access Map */
+.weather-widget, .youtube-video, .access-map {
+  margin-bottom: 20px; /* Space between each iframe section */
+}
+
+iframe {
+  width: 100%; /* Ensures iframe takes up full width of container */
+  height: 200px; /* Set a fixed height for consistency */
+  border: none;  /* Remove any borders around the iframe */
+}
+
+/* Optional: Style the headings for better appearance */
+.weather-widget h3, .youtube-video h3, .access-map h3 {
+  font-size: 1.2rem;  /* Larger headings for visibility */
+  margin-bottom: 10px; /* Space below headings */
+}

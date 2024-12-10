@@ -1,0 +1,54 @@
+/* Ensure body and html take up full height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* App container with flex layout */
+  .App {
+    display: flex;  /* Flexbox layout for the entire app */
+    flex-direction: column;  /* Stack header and footer vertically */
+    height: 100%;  /* Full height for the app */
+    margin: 0 auto;
+    max-width: 1340px;
+    padding-top: 53px;
+  }
+  
+  /* Main content (flex to take up remaining space) */
+  main {
+    flex: 1;  /* Take up remaining space */
+    padding: 20px;
+    background-color: #fff;
+    min-height: 100vh;  /* Ensure full viewport height */
+    box-sizing: border-box;
+  }
+  
+  /* Main content and aside container */
+  .main-container {
+    display: flex;    /* Side by side layout for main content and aside */
+    flex: 1;   /* Allow it to take up remaining space */
+    margin-top: 20px;  /* Space below header */
+    padding: 20px;  /* Added padding to prevent direct contact between elements */
+    gap: 20px; /* Optional: space between main content and aside */
+    align-items: flex-start; /* Align content to the top of the page */
+  }
+  
+ 
+  .content {
+    width: 60%;
+    padding: 20px;
+    }
+
+/* Aside styling */
+.aside_section {
+    width: 40%;  /* Fixed width for the aside */
+    background-color: #f9f9f9;  /* Light background */
+    padding: 20px;
+    border-left: 1px solid #ccc;  /* Separation between main and aside */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);  /* Shadow for visual depth */
+    height: auto;  /* Allow it to grow with content */
+    overflow-y: auto;  /* Scroll inside the aside if content overflows */
+  }
+  

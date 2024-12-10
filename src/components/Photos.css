@@ -1,0 +1,50 @@
+/* Photos.css */
+.swiper {
+  width: 100%;
+  max-height: 500px;
+  margin: 20px 0;
+}
+
+.swiper-slide img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+/* Style the navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;  /* White color for visibility */
+  background-color: rgba(0, 0, 0, 0.5);  /* Dark background */
+  border-radius: 50%;  /* Round shape */
+  padding: 10px;  /* Make buttons bigger */
+  z-index: 10;  /* Ensure buttons are on top of slides */
+}
+
+/* Hover effect to darken buttons when the user hovers */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);  /* Darker on hover */
+}
+
+/* Adjust position of the navigation buttons */
+.swiper-button-next {
+  right: 10px;  /* Position next button to the right */
+}
+
+.swiper-button-prev {
+  left: 10px;  /* Position prev button to the left */
+}
+
+/* Optional: Adjust the size of the arrows */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px;  /* Increase the size of the arrow */
+}
+
+/* Adjust pagination styling if needed */
+.swiper-pagination {
+  bottom: 10px !important;  /* Adjust pagination position */
+}

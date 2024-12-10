@@ -1,0 +1,8 @@
+/* Banner Image */
+.header-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Space between banner and introduction */
+  }
+  

@@ -1,0 +1,22 @@
+/* Lessons.css */
+dl {
+    font-size: 1.1em;
+  }
+  
+  dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  dd {
+    margin-left: 20px;
+  }
+  
+  .price {
+    color: #007bff;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  

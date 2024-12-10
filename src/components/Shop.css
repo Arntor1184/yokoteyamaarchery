@@ -1,0 +1,29 @@
+
+table {
+    width: 50%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f8f8f8;
+  }
+  
+  td {
+    background-color: #fafafa;
+  }
+  
+  td:last-child {
+    text-align: right;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,26 @@
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f8f8f8;
+  }
+  
+  td {
+    background-color: #fafafa;
+  }
+  
+  h2 {
+    color: blue;
+    margin-bottom: 15px;
+  }
+  
