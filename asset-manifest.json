@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yokoteyamaarchery/static/css/main.96553c23.css",
+    "main.js": "/yokoteyamaarchery/static/js/main.c183ed50.js",
+    "static/js/453.26d075bf.chunk.js": "/yokoteyamaarchery/static/js/453.26d075bf.chunk.js",
+    "static/media/Arthur.jpeg": "/yokoteyamaarchery/static/media/Arthur.efefd23762e50dd5c845.jpeg",
+    "static/media/YAClogo.webp": "/yokoteyamaarchery/static/media/YAClogo.8f79dc1654e175806f54.webp",
+    "static/media/Yokoteyama2.jpg": "/yokoteyamaarchery/static/media/Yokoteyama2.706754d2090024517c51.jpg",
+    "static/media/header.jpg": "/yokoteyamaarchery/static/media/header.7c927a2380285ee86e25.jpg",
+    "static/media/Yokoteyama1.jpg": "/yokoteyamaarchery/static/media/Yokoteyama1.49ff76ec4fa47d9ed655.jpg",
+    "index.html": "/yokoteyamaarchery/index.html",
+    "main.96553c23.css.map": "/yokoteyamaarchery/static/css/main.96553c23.css.map",
+    "main.c183ed50.js.map": "/yokoteyamaarchery/static/js/main.c183ed50.js.map",
+    "453.26d075bf.chunk.js.map": "/yokoteyamaarchery/static/js/453.26d075bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96553c23.css",
+    "static/js/main.c183ed50.js"
+  ]
+}
